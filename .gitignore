@@ -1,0 +1,10 @@
+.venv/
+.uv-cache/
+__pycache__/
+.pytest_cache/
+*.pyc
+
+data/raw/
+data/processed/
+artifacts/
+reports/

@@ -1,0 +1,30 @@
+[paths]
+raw_dir = "raw"
+processed_dir = "processed"
+artifacts_dir = "artifacts"
+reports_dir = "reports"
+train_file = "adult.data"
+test_file = "adult.test"
+
+[download]
+zip_urls = []
+raw_train_urls = []
+raw_test_urls = []
+timeout_seconds = 5
+
+[experiment]
+seed = 42
+validation_ratio = 0.4
+preprocess_profile = "pdf_default"
+
+[tree]
+max_depth = 6
+min_samples_split = 2
+min_gain = 1e-6
+
+[forest]
+n_estimators_grid = [3, 5]
+max_features_grid = [2, 4]
+max_depth = 6
+min_samples_split = 2
+min_gain = 1e-6

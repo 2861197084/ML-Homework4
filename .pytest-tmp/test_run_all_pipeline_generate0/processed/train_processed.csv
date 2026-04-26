@@ -1,0 +1,11 @@
+age,workclass,education-num,marital-status,occupation,relationship,race,sex,capital-gain,capital-loss,hours-per-week,native-country,income
+25-49,Government,10+,not-married,Low,Other,White,Male,1,0,40,USA,0
+50-74,Proprietor,10+,married,High,Husband,White,Male,0,0,>40,USA,1
+25-49,Private,5-9,not-married,Low,Other,White,Male,0,0,40,USA,0
+50-74,Private,5-9,married,Low,Husband,Other,Male,0,0,40,USA,0
+25-49,Private,10+,married,High,Wife,Other,Female,0,0,40,notUSA,1
+25-49,Private,10+,married,High,Wife,White,Female,0,0,40,USA,1
+25-49,Private,5-9,married,Low,Other,Other,Female,0,0,<40,notUSA,0
+50-74,Proprietor,5-9,married,High,Husband,White,Male,0,0,>40,USA,1
+25-49,Government,10+,not-married,High,Other,White,Female,1,0,>40,USA,1
+25-49,Private,10+,married,Med,Husband,White,Male,1,0,40,USA,1
